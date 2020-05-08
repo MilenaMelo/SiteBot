@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Bot</title>
+</head>
+
+<body id="absolute">
+    <div class="text">
+    </div>
+    <div id="chat-bot">
+        <div id="bot">
+            <div class="header">
+                <div class="head-top">
+                </div>
+                <div class="head-low">
+                    <div class="head-face">
+                        <div class="eyes1"></div>
+                        <div class="eyes2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-low">
+                <div class="hand1"></div>
+                <div class="body1"></div>
+                <div class="body2"></div>
+                <div class="body3"></div>
+                <div class="hand2"></div>
+            </div>
+            <div class="foot-1">
+                <div class="foot-int1"></div>
+            </div>
+            <div class="foot-2">
+                <div class="foot-int2"></div>
+            </div>
+            <div class="shadow"></div>
+
+        </div>
+        <div id="chat">
+            <p> {{ message }}</p>
+            <div class="sendin">
+                <div class="inputs">
+                    <input v-model="message" class="input-on" type="text" name="firstname">
+                </div>
+                <div class="send">
+                    <button type="button" class="btn">
+                    </button>
+                    <div class="arrow">
+                        <div class="icon-send1"></div>
+                        <div class="icon-send2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+* {
+    margin: 0%;
+}
+
+#absolute {
+    widows: 50vw;
+    height:700px;
+    background-color: #2B2A3A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat-bot {
+    display: flex;
+    flex-direction: row;
+}
+#bot {
+    width:300px;
+    display: flex;
+    height:500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width:186.33px;
+    height:180px;
+}
+.head-top {
+    width:186.33px;
+    height:85.4px;
+    background-color: #F8D6BA;
+    border-radius: 80%;
+}
+
+.head-low {
+    width:186.33px;
+    height:163.9px;
+    background-color: #F8D6BA;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.head-face {
+    width:151.82px;
+    height:126.81px;
+    background-color: #2B2A3A;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.space {
+    width:17.255px;
+    height:18.545px;
+}
+
+.body-low {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.body1 {
+    width:77.64px;
+    height:25.02px;
+    background-color: #F8D6BA;
+    transform: rotate(-35deg);
+    margin: 30px -30px 0px 0px;
+}
+
+.hand1 {
+    width:51.76px;
+    height:27.6px;
+    background-color: #FD8B67;
+    border-radius: 80%;
+    margin: 50px -30px 0px 0px;
+    z-index: 1;
+}
+
+.body2 {
+    width:139.74px;
+    height:99.2px;
+    background-color: #F8D6BA;
+    border-radius: 20px;
+    
+}
+
+.body3 {
+    width:77.64px;
+    height:25.02px;
+    background-color: #F8D6BA;
+    transform: rotate(35deg);
+    position: relative;
+    margin: 30px 0px 0px -30px;
+
+}
+
+.hand2 {
+    width:51.76px;
+    height:27.6px;
+    background-color: #FD8B67;
+    border-radius: 80%;
+    z-index: 1;
+    margin: 50px 0px 0px -30px;
+}
+
+.foot-1 {
+    width:123.35px;
+    height:10.35px;
+    background-color: #FC6764;
+    border-radius: 20px;
+    margin: 12px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot-2 {
+    width:83.67px;
+    height:10.35px;
+    background-color: #FC6764;
+    border-radius: 20px;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.foot-int1 {
+    width:90.58px;
+    height:5.18px;
+    background-color: #46303D;
+    border-radius: 20px;
+    margin: 0px 0px 0px 16px;
+}
+.foot-int2 {
+    width:46.58px;
+    height:5.18px;
+    background-color: #46303D;
+    border-radius: 20px;
+    margin: 0px 0px 0px 19px;
+    margin-top: 2px;
+}
+.eyes1, .eyes2 {
+    width:24.15px;
+    height:10.35px;
+    background-color: #F8D6BA;
+    transform: rotate(90deg);
+    margin-top: 60px;
+}
+
+.shadow {
+    width:260px;
+    height:21px;
+    background-color: hsl(0, 96%, 68%, 20%);
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height:500px;
+}
+
+.input-on {
+    font-family: 'Roboto';
+    padding-left: 20px;
+    font-size: 25px;
+    width: 407px;
+    height: 62px;
+    left: calc(50% - 407px/2 + 444.5px);
+    top: 469px;
+    border: none;
+    background: #FCE3C5;
+    border-radius: 10px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.sendin {
+    width: 550px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+}
+.btn {
+    width: 58px;
+    height: 62px;
+    border-radius: 100%;
+    background-color: #FC6160;
+    border: none;
+    margin-left: 15px;
+}
+.arrow {
+    z-index: 1;
+    position: absolute;
+    margin: 25px 0px 0px 10px;
+}
+.icon-send1 {    
+    
+    width: 18.9px;
+    height: 3.15px;
+    margin-bottom: 6px;
+    background: #E5E5E5;
+    border-radius: 20px;
+    transform: matrix(0.71, 0.6, -0.83, 0.71, 0, 0);
+}
+
+.icon-send2 {
+    width: 18.9px;
+    height: 3.15px;
+ 
+    background: #E5E5E5;
+    border-radius: 20px;
+    transform: matrix(0.71, -0.6, 0.83, 0.71, 0, 0);
+}
+
+p {
+    font-family: 'Roboto';
+    color: #FDFDFD;
+    font-size: 25px;
+    margin: 30% 40px 50px 0px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 345px;
+    height: 62px;
+    background: #FF6160;
+    border-radius: 10px;
+ 
+}
